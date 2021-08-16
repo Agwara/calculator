@@ -1,0 +1,48 @@
+.operators {
+  background-color: #FFFFFF;
+  border-bottom-right-radius: 8px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.operators p {
+  cursor: pointer;
+}
+
+.operators__default {
+  font-size: 30px;
+  font-weight: 600;
+  color: #313949;
+
+  height: 100%;
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all .4s;
+}
+
+.operators__default:hover {
+  background-color: #313949;
+  color: #ffffff;
+}
+
+.operators__equals {
+  border-bottom-right-radius: 8px;
+
+  background-image: linear-gradient(to right, #FF0B00,#FF9801);
+  font-size: 30px;
+  font-weight: 600;
+  color: #ffffff;
+
+  height: 100%;
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
